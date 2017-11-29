@@ -1,0 +1,221 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_back"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:weightSum="10"
+    >
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#111111"
+        android:orientation="horizontal"
+        android:weightSum="30"
+      
+         >
+
+        <TextView
+            android:id="@+id/internetActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" Internet Access"
+            android:textColor="#FFFFFF"
+             android:textSize="18sp"
+            android:drawableLeft="@drawable/internet5"
+            android:clickable="true"
+             android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:id="@+id/callwaiter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" Call Waiter"
+           android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="20dp"
+            android:drawableLeft="@drawable/waiter"
+            android:clickable="true"
+             android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:id="@+id/askbill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" Checkout"
+             android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="20dp"
+            android:drawableLeft="@drawable/exit" 
+            android:clickable="true"
+             android:layout_margin="10dp"/>
+
+    </LinearLayout>
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7" >
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                   
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/containerleft"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4" >
+
+                        <LinearLayout
+                            android:id="@+id/containermenu"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="5" >
+
+                            <ScrollView
+                                android:id="@+id/panesubcategory"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.5" >
+
+                                <TableLayout
+                                    android:id="@+id/tablesubcategory"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" >
+                                </TableLayout>
+                            </ScrollView>
+
+                            <ScrollView
+                                android:id="@+id/paneitems"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3.5"
+                                android:fadeScrollbars="false"
+                                android:scrollbarSize="10dip"
+                                android:scrollbarStyle="insideInset" >
+
+                                <TableLayout
+                                    android:id="@+id/tl5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" >
+                                </TableLayout>
+                            </ScrollView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+    <FrameLayout
+        android:id="@+id/item_detail_container1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        
+        android:layout_weight="3" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="391dp"
+            android:orientation="vertical" >
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+             >
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bordershape"
+                android:gravity="left"
+                android:text="Ordered Items"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#606162"
+                android:textSize="22sp"
+                android:layout_weight="1"
+                 />
+             <TextView
+                android:id="@+id/total"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:background="@drawable/bordershape"
+                android:text="Total:  0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#606162"
+                android:textSize="30sp" 
+                android:layout_weight="1"
+                />
+             </LinearLayout>
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+					<TableLayout
+                        android:id="@+id/OrderedItems"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1">
+
+                    </TableLayout>
+                    <TableLayout
+                        android:id="@+id/tableright"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                    </TableLayout>
+                </LinearLayout>
+            </ScrollView>
+
+           
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/orderButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Order" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

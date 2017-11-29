@@ -1,0 +1,26 @@
+input[type="text"], textarea{
+	border:1px solid #c3d7db;
+}
+
+table{
+	background:none;
+	border-collapse : collapse;
+	width : 700px;
+}
+td, th{
+	border:1px solid #c3d7db;
+	border-collapse : collapse;
+} 
+
+/* button {
+	border : 2;
+	border-bottom-style: groove;
+	border-bottom-width: 2;
+} */
+
+textarea{
+	margin: 2px;
+	width: 532px;
+	height: 70px; 
+	resize:none;
+}

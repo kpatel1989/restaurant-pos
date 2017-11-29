@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#111111"
+        android:orientation="horizontal"
+        android:weightSum="30"
+      
+         >
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" Back to MENU"
+            android:textColor="#FFFFFF"
+             android:textSize="18sp"
+            android:drawableLeft="@drawable/back"
+            android:clickable="true"
+             android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:id="@+id/callwaiter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" Call Waiter"
+           android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="20dp"
+            android:drawableLeft="@drawable/waiter"
+            android:clickable="true"
+             android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:id="@+id/askbill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" Checkout"
+             android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="20dp"
+            android:drawableLeft="@drawable/exit" 
+            android:clickable="true"
+             android:layout_margin="10dp"/>
+        
+        <TextView
+            android:id="@+id/signout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" Signout"
+             android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="20dp"
+            android:drawableLeft="@drawable/logout" 
+            android:clickable="true"
+             android:layout_margin="10dp"/>
+
+    </LinearLayout>
+	
+        
+
+   
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="go" />
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

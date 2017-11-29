@@ -1,0 +1,215 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:weightSum="10" >
+
+       
+
+        <TextView
+            android:id="@+id/askbill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" Checkout"
+             android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="20dp"
+            android:drawableLeft="@drawable/exit" 
+            android:clickable="true"
+             android:layout_margin="10dp"/>
+    </LinearLayout>
+
+<LinearLayout 
+     android:id="@+id/main_back"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:weightSum="10">
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6.8" >
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                   
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/containerleft"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4" >
+
+                        <LinearLayout
+                            android:id="@+id/containermenu"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="5" 
+                            >
+
+                            <ScrollView
+                                android:id="@+id/panesubcategory"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" 
+                                >
+
+                                <TableLayout
+                                    android:id="@+id/tablesubcategory"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" >
+                                </TableLayout>
+                            </ScrollView>
+
+                            <ScrollView
+                                android:id="@+id/paneitems"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="4"
+                                android:fadeScrollbars="false"
+                                android:scrollbarSize="10dip"
+                                android:scrollbarStyle="insideInset"
+                                >
+
+                                <TableLayout
+                                    android:id="@+id/tl5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" >
+                                </TableLayout>
+                            </ScrollView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+	
+    <FrameLayout
+        android:id="@+id/item_detail_container1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        
+        android:layout_weight="2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10"
+             >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#00000000"
+                android:textStyle="bold"
+                android:text="Ordered Items"
+              
+                
+                android:textColor="#606162"
+                android:textSize="20sp" />
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" 
+                android:layout_weight="7">
+				
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+					<TableLayout
+                        android:id="@+id/OrderedItems"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                    </TableLayout>
+                    <TableLayout
+                        android:id="@+id/tableright"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp" >
+                    </TableLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#00000000"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:text="Total:  0"
+                android:layout_weight="1"
+                android:textColor="#606162"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/orderButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Order" />
+
+        </LinearLayout>
+    </FrameLayout>
+	
+	
+	<ScrollView
+                android:id="@+id/scrollView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.2"
+                
+               >
+    <LinearLayout
+        android:id="@+id/resTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       
+       
+        android:orientation="vertical"
+         >
+		
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+</LinearLayout>
