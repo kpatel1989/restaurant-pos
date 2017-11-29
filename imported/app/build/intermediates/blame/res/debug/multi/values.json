@@ -1,0 +1,146 @@
+[
+    {
+        "outputFile": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 36,
+                    "endOffset": 87
+                },
+                "from": {
+                    "file": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 36,
+                        "endOffset": 89
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 92,
+                    "endColumn": 50,
+                    "endOffset": 138
+                },
+                "from": {
+                    "file": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 58,
+                        "endColumn": 50,
+                        "endOffset": 104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 143,
+                    "endColumn": 52,
+                    "endOffset": 191
+                },
+                "from": {
+                    "file": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 110,
+                        "endColumn": 52,
+                        "endOffset": 158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 196,
+                    "endColumn": 50,
+                    "endOffset": 242
+                },
+                "from": {
+                    "file": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 164,
+                        "endColumn": 50,
+                        "endOffset": 210
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 247,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 533
+                },
+                "from": {
+                    "file": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 538,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 693
+                },
+                "from": {
+                    "file": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 698,
+                    "endLine": 19,
+                    "endColumn": 12,
+                    "endOffset": 905
+                },
+                "from": {
+                    "file": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 687,
+                        "endLine": 22,
+                        "endColumn": 12,
+                        "endOffset": 897
+                    }
+                }
+            }
+        ]
+    }
+]

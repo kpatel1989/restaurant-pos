@@ -1,0 +1,4 @@
+#Tue Nov 28 14:00:30 EST 2017
+base.0=/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6
+renamed.0=classes.dex
+file.0=/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex

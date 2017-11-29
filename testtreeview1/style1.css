@@ -1,0 +1,90 @@
+
+
+#treee img { border: none; }
+//input, select, textarea, th, td { font-size: 1em; }
+
+/* CSS Tree menu styles */
+#treee ol.tree
+{
+	padding: 0 0 0 30px;
+	width: 300px;
+	
+}
+
+#treee label:hover{
+		color:#88c8ec;
+	}
+	
+	
+	#treee li
+	{
+		position: relative;
+		
+		list-style: none;
+	}
+	#treee li.file
+	{
+		margin-left: -1px !important;
+	}
+		#treee li.file a
+		{
+			background: url(document.png) 0 0 no-repeat;
+			color: #fff;
+			padding-left: 21px;
+			text-decoration: none;
+			display: block;
+		}
+		#treee li.file a[href *= '.pdf']	{ background: url(document.png) 0 0 no-repeat; }
+		#treee li.file a[href *= '.html']	{ background: url(document.png) 0 0 no-repeat; }
+		#treee li.file a[href $= '.css']	{ background: url(document.png) 0 0 no-repeat; }
+		#treee li.file a[href $= '.js']		{ background: url(document.png) 0 0 no-repeat; }
+	#treee li input
+	{
+		position: absolute;
+		left: 0;
+		margin-left: 0;
+		opacity: 0;
+		z-index: 2;
+		cursor: pointer;
+		height: 1em;
+		width: 1em;
+		top: 0;
+	}
+		#treee li input + ol
+		{
+			background: url(shrink.png) 40px 0 no-repeat;
+			margin: -0.938em 0 0 -44px; /* 15px */
+			height: 1em;
+		}
+		#treee li input + ol > li { display: none; margin-left: -14px !important; padding-left: 1px; }
+	#treee li label
+	{
+		color: rgba(0,0,0,0.6);
+		text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+		cursor: pointer;
+		display: block;
+		padding-left: 37px;
+	}
+
+	#treee li input:checked + ol
+	{
+		background: url(expand.png) 40px 5px no-repeat;
+		margin: -1.25em 0 0 -44px; /* 20px */
+		padding: 1.563em 0 0 80px;
+		height: auto;
+	}
+		#treee li input:checked + ol > li { display: block; margin: 0 0 0.125em;  /* 2px */}
+		#treee li input:checked + ol > li:last-child { margin: 0 0 0.063em; /* 1px */ }
+
+#searchh
+{
+background-image: url(search.png);
+width: 40;
+background-size: 55%;
+height: 22;
+background-repeat: no-repeat;
+background-position: center;
+}
+a{
+color :red;
+}
