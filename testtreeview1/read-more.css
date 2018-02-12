@@ -1,0 +1,16 @@
+.read-more input {
+    display: none;
+}
+.more-button {
+    color: #0b0bf5;
+}
+
+.read-more input:checked + .more-info {
+    display:block;
+}
+
+.more-info
+{
+    color:black;
+    display:none;
+}

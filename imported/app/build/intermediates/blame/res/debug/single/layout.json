@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/res/merged/debug/layout/bill_dialog_default.xml",
+        "source": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/layout/bill_dialog_default.xml"
+    },
+    {
+        "merged": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/res/merged/debug/layout/tab_purple.xml",
+        "source": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/layout/tab_purple.xml"
+    },
+    {
+        "merged": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/res/merged/debug/layout/iteminfo.xml",
+        "source": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/layout/iteminfo.xml"
+    },
+    {
+        "merged": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/res/merged/debug/layout/iteminfo_purple.xml",
+        "source": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/layout/iteminfo_purple.xml"
+    },
+    {
+        "merged": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/res/merged/debug/layout/startup.xml",
+        "source": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/layout/startup.xml"
+    },
+    {
+        "merged": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/res/merged/debug/layout/login.xml",
+        "source": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/layout/login.xml"
+    },
+    {
+        "merged": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/res/merged/debug/layout/waiter_activity.xml",
+        "source": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/layout/waiter_activity.xml"
+    },
+    {
+        "merged": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/res/merged/debug/layout/tabs_bg.xml",
+        "source": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/layout/tabs_bg.xml"
+    },
+    {
+        "merged": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/res/merged/debug/layout/tabs_orange.xml",
+        "source": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/layout/tabs_orange.xml"
+    },
+    {
+        "merged": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/res/merged/debug/layout/iteminfo_orange.xml",
+        "source": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/layout/iteminfo_orange.xml"
+    },
+    {
+        "merged": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/res/merged/debug/layout/noconnection.xml",
+        "source": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/layout/noconnection.xml"
+    },
+    {
+        "merged": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/res/merged/debug/layout/bill_dialog_orange.xml",
+        "source": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/layout/bill_dialog_orange.xml"
+    },
+    {
+        "merged": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/res/merged/debug/layout/webaccess.xml",
+        "source": "/Users/kartikpatel/Documents/Restaurant POS system/imported/app/src/main/res/layout/webaccess.xml"
+    }
+]

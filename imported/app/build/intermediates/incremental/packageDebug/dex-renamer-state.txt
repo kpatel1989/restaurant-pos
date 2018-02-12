@@ -1,0 +1,7 @@
+#Thu Nov 30 10:33:15 EST 2017
+base.0=/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_14525f3d023cd15193a2901dd26f40deb560a654
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0ee3959faeef29e4273cf5b86ecdac4257c125de/classes.dex
+base.1=/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0ee3959faeef29e4273cf5b86ecdac4257c125de
+file.0=/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_14525f3d023cd15193a2901dd26f40deb560a654/classes.dex

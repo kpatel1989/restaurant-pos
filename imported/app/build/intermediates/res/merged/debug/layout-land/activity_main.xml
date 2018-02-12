@@ -1,0 +1,236 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#808182"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#111111"
+        android:orientation="horizontal"
+        android:weightSum="30"
+      
+         >
+
+        <TextView
+            android:id="@+id/internetActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" Internet Access"
+            android:textColor="#FFFFFF"
+             android:textSize="18sp"
+            android:drawableLeft="@drawable/internet5"
+            android:clickable="true"
+             android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:id="@+id/callwaiter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" Call Waiter"
+           android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="20dp"
+            android:drawableLeft="@drawable/waiter"
+            android:clickable="true"
+             android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:id="@+id/askbill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" Checkout"
+             android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="20dp"
+            android:drawableLeft="@drawable/exit" 
+            android:clickable="true"
+             android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+<LinearLayout 
+    android:id="@+id/main_back"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:weightSum="10"
+    >
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        
+         >
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                   
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/containerleft"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4" >
+
+                        <LinearLayout
+                            android:id="@+id/containermenu"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="5" >
+
+                            <ScrollView
+                                android:id="@+id/panesubcategory"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.5" 
+                                android:background="#00ffffff"
+                                >
+
+                                <TableLayout
+                                    android:id="@+id/tablesubcategory"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    >
+                                </TableLayout>
+                            </ScrollView>
+
+                            <ScrollView
+                                android:id="@+id/paneitems"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3.5"
+                                android:fadeScrollbars="false"
+                                android:scrollbarSize="10dip"
+                                android:scrollbarStyle="insideInset" 
+                                
+                                >
+
+                                <TableLayout
+                                    android:id="@+id/tl5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" 
+                                   >
+                                </TableLayout>
+                            </ScrollView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+	<!-- <View
+    android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#909192"/> -->
+    <FrameLayout
+        android:id="@+id/item_detail_container1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="#00FFFFFF"
+        android:layout_weight="2"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="20" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#00FFFFFF"
+                android:gravity="center"
+                android:text="Ordered Items"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#CCCCCC"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_weight="1.5" />
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15"
+                 >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+					<TableLayout
+                        android:id="@+id/OrderedItems"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                    </TableLayout>
+                    <TableLayout
+                        android:id="@+id/tableright"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         >
+                    </TableLayout>
+
+                    
+
+                </LinearLayout>
+            </ScrollView>
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:background="#00FFFFFF"
+                android:gravity="left"
+                android:text="Total:  0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:paddingLeft="10dp"
+                android:textColor="#CCCCCC"
+                android:textStyle="bold"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/orderButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="Order" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
+</LinearLayout>

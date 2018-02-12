@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_14525f3d023cd15193a2901dd26f40deb560a654/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="60bec5d27babc82baaaec09160cd134d2e6e5911">
+        <dex dex="/Users/kartikpatel/Documents/Restaurant POS system/imported/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0ee3959faeef29e4273cf5b86ecdac4257c125de/classes.dex" />
+    </item>
+
+</items>

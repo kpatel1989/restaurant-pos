@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/dialog_selector"
+    >
+
+    <LinearLayout
+         android:id="@+id/iteminfoLinear"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+         >
+		
+         <TextView
+        android:id="@+id/titleV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8e39b8"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="" 
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"/>
+        
+        <TextView
+            android:id="@+id/descText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:text="Description"
+            android:textColor="#8e39b8"
+            android:textSize="22sp"
+          
+          	 />
+
+        <TextView
+            android:id="@+id/itemDescValue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text=""
+            
+            
+             />
+
+        <Gallery
+            android:id="@+id/itemimageGallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="false"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/ingrdntext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Ingredients"
+            android:textColor="#8e39b8"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/ingrdntValue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="---" />
+
+        <TextView
+            android:id="@+id/prepText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Preperation Process"
+            android:textColor="#8e39b8"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/prepValue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="----" />
+
+    </LinearLayout>
+    
+
+</ScrollView>
